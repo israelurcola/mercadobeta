@@ -11,6 +11,7 @@ app.get('/',function(req,res) {
 app.get('/betaHome', (req,res) => {
     res.sendFile (path.join(__dirname, '/views/betaHome.html'))});
 
-
+    app.get('/crearCuenta', (req,res) => {
+        res.sendFile (path.join(__dirname, '/views/crearCuenta.html'))});
 
 app.listen(3040 ,() => console.log('sevidor corriendo beta'));

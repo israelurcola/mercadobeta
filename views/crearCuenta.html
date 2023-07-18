@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/crearCuen.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+    <title>crear Cuenta</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="claseNav"></nav>
+            <div class="pruebaNav">
+                <div class="imagenesMer"><img src="images/logo-mercado-liebre.svg"></div>
+                <input type="text" placeholder="busca productos, marcas">
+                <button><i id="itemsearch" class="fas fa-search"></i> </button>
+            </div>
+            <p class= titularInicio><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito </p>
+
+            <div class="lista">
+                <ul type="none">
+                    <li><a href="ofertas">ofertas</a></li>
+                    <li><a href="tiendaOficial">tienda Oficiales</a></li>
+                    <li><a href="vender">Vender</a></li>
+                    <li><a href="ayuda">ayuda</a></li>
+                </ul>
+                <ul type="none">
+                    <li><a href="crearcuenta"> tu Cuenta </a><i class="far fa-address-card iconNav"></i></il>
+                    <li><a href="ingresa">Ingresa  </a><i class="fa-solid fa-right-to-bracket iconNav"></i></il>
+                    <li><a href="misCompras">Mis compras </a><i class="fas fa-shopping-basket iconNav"></i></il>
+                </ul>
+            </div>
+            <div class="burger-menu">
+                <button><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="imagenesBajo"><img src="images/img-home-banner.jpg"></div>     
+        </nav>
+    </header>
+    <main class="cuentaCrear">
+        <section class="formulario">
+            <form method="get" action="/registrar">
+                <div class="nombreApellido">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="nombreApe" value="nombre y apellido" required>
+                </div>
+                <div class="nombreUsuario">
+                    <label for="usuario"></label>
+                    <input type="text" name="usuario" value="Ingrese de usuario" required>
+                </div>
+                <div class="correo">
+                    <label for="email"></label>
+                    <input type="text" name="correo" value="E-mail" required>
+                </div>
+                <div class="fechaNac">
+                    <p class="fechaNac">Fecha de Nacimiento </p>
+                    <input type="date" name="fecha" value="mm/dd/yyyy" min="1950-01-01" required>
+                </div>
+                <div class="perfilUcuario">
+                    <p class="perfilUser">Perfil de Usuario</p>
+                    <input type="radio" name="medio" value="comprador" required>
+                    <label for="comprador">Comprador</label>
+                    <input type="radio" name="medio" value="Vendedor" required>
+                    <label for="Vendedor">Vendedor</label>
+                </div>
+                <div class="interes">
+                    <p class="inter">interes</p>
+                    <input type="checkbox" name="interes" value="electro" required>
+                    <label for="electro">electro</label>
+                    
+                    <input type="checkbox" name="interes" value="Moda" required>
+                    <label for="electro">Moda</label>
+
+                    <input type="checkbox" name="interes" value="Hogar" required>
+                    <label for="electro">Hogar</label>
+
+                    <input type="checkbox" name="interes" value="Jugueteria" required>
+                    <label for="electro">Jugueteria</label>
+
+                    <input type="checkbox" name="interes" value="Vida Sana" required>
+                    <label for="electro">Vida Sana</label>
+                </div>
+
+
+            </form>
+           
+        </section>
+    </main>
+    <footer>
+        <nav class="footerNav">
+            <section class="seccionesFoo">
+                <div class="pagosEnvios"> 
+                    <button ><i class="fas fa-credit-card"></i></button><br>
+                    <B class = cuerpo>pagá con tarjeta o en efectivo</b>
+                    <p class = cuerpo>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro! </p>              
+                </div>
+                <div class="envios">
+                    <button><i class="fas fa-gift"></i></button><br>
+                    <b class = cuerpo>Envío gratis desde $ 2.500</b>
+                    <p class = cuerpo>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+                </div> 
+                <div class="seguridad">
+                    <button><i class="fas fa-user-shield"></i></button><br>
+                    <b class= cuerpo>Seguridad, de principio a fin</b>
+                    <p class = cuerpo>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@</p>
+                </div>
+                <div class="marcaRegistrada">
+                    <p class = cuerpo></p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+                </div>       
+            </section>
+        </nav>
+    </footer> 
+</body>

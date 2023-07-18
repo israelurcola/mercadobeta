@@ -1,0 +1,138 @@
+*{  
+   
+    box-sizing: border-box ;
+}
+body{
+    
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+    padding: 0;
+    margin: 0;   
+}
+img{
+    width: 100%;
+}
+
+.header{
+    background-color: #EAC926;
+    align-items: center;
+    justify-content: center;  
+    
+}
+.titularInicio{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.titularInicio i{
+    width: 15px;
+    text-align: center;
+    align-items: center;
+}
+.claseNav img{
+    width: 50%;
+    display: flex;
+}
+.claseNav{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagenesMer, .pruebaNav input{
+    display: inline-block;
+    
+}
+.lupa{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.pruebaNav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.juan{
+    display: inline-flex;
+    flex-grow: 3;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+.imagenesMer{
+    width: 49%;
+    display: flex;
+}
+.claseNav input{
+    width: 40%;
+    display: flex;
+}
+.claseNav #itemsearch{
+    width: 10%;
+    display: flex;
+}
+.burger-menu { 
+    text-align: center;   
+}
+.burger-menu button{
+    background-color: #03264C;
+}
+.lista{
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+
+}
+.lista ul{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.formulario{
+    background-color: blanchedalmond;
+    display: block;
+    margin: 15px;
+    padding: 35px;
+    text-align: center;     
+}
+.interes{
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fechaNac{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.cuerpo{
+    font-size: 12px;
+}
+
+.seccionesFoo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.seccionesFoo i{
+    font-size: 2em;
+    
+}
+.seccionesFoo button{
+    background-color: #03264C;
+}

@@ -1,2 +1,343 @@
+*{  
+   
+    box-sizing: border-box ;
+}
+body{
+    
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+    padding: 0;
+    margin: 0;   
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    background-color: #EAC926;
+    align-items: center;
+    justify-content: center;  
+    
+}
+.titularInicio{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.titularInicio i{
+    width: 15px;
+    text-align: center;
+    align-items: center;
+}
+.claseNav img{
+    width: 50%;
+    display: flex;
+}
+.claseNav{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagenesMer, .pruebaNav input{
+    display: inline-block;
+    
+}
+.lupa{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+.pruebaNav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.juan{
+    display: inline-flex;
+    flex-grow: 3;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+.imagenesMer{
+    width: 49%;
+    display: flex;
+}
+.claseNav input{
+    width: 40%;
+    display: flex;
+}
+.claseNav #itemsearch{
+    width: 10%;
+    display: flex;
+}
+.burger-menu { 
+    text-align: center;   
+}
+.burger-menu button{
+    background-color: #03264C;
+}
+.lista{
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+
+}
+.lista ul{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.producto-wrapper{
+    width: 90vw;
+    margin: auto;
+
+}
+.secciones-producto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.producto img{
+   width: 100%;
+}
+.producto{
+    display: block;
+    width: 100%;
+   
+    margin: 5px;
+    box-sizing: border-box;
+    
+}
+.cajaArticle{
+    border-top: 1px solid #666;
+    line-height: normal;
+    background-color: white;
+    width: 100%;
+    border-left: 15x;
+    border-right: 15px;
+    border-bottom: 15px;
+    position: relative;
+    
+}
+
+.camion{
+    color: #39b54a;
+    display: block ;
+    font-size: 16px ;
+    padding: 5px ;
+    width: 30px ;
+    height: 30px ;
+    border: 1px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50% ;
+    position: absolute ;
+    right: 20px ;
+    top: -15px ;
+    
+}
+.precioArti{
+    display: flex;
+    flex-wrap: row nowrap;
+}
 
 
+.precio{
+    font-size: 18px;
+    width: 29%;
+
+
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+    width: 69%;
+}
+.descripcion{
+    font-size: 16px;
+    text-align: center;
+}
+.titular{
+    font-size: 24px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100vw;
+    padding: 1vw;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.cuerpo{
+    font-size: 12px;
+}
+
+.seccionesFoo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.seccionesFoo i{
+    font-size: 2em;
+    
+}
+.seccionesFoo button{
+    background-color: #03264C;
+}
+
+@media (min-width: 361px){
+    .lista{
+        box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
+        display:flex;
+        font-size: 10px;
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .producto{
+        width: 46%;
+        font-size: 10px;
+    }
+    .precio{
+        width: 46%;
+        font-size: 10px; 
+         
+    }
+    .descuento{
+        width: 46%;
+        font-size: 10px;   
+    }
+    .descripcion{
+        text-align: center;
+    }
+    .imagenesMer{
+        display: flex;
+        width: 50%;
+        
+    }
+    .claseNav button{
+        display: flex;
+        width: 50%;
+        
+    }
+    .claseNav #itemsearch{
+        display: flex;
+        width: 50%;
+        
+
+    }
+    .titularInicio{
+        width: 100%;
+        text-align: center;
+    }
+     
+}
+@media (min-width: 769px){
+    .lista{
+        box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
+        
+        font-size: 15px;
+        display: flex;       
+    }
+    
+    .producto{
+        width: 29%;
+    }
+    .precio{
+        width: 29%;
+        font-size: 15px;  
+    }
+    .descuento{
+        width: 29%;
+        font-size: 15px;   
+    }
+    .descripcion{
+        text-align: center;
+    }
+    .imagenesMer{
+        width: 49%;
+
+    }
+    .claseNav button{
+        width: 10%;
+        height:20% ;
+    }
+    .titularInicio{
+        width: 40%;
+        text-align: center;
+        height:20% ;
+    }
+    .pruebaNav{
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+    .juan{
+        flex-grow: 3;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media (min-width: 1280px){
+    .lista{
+        box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );   
+        display: flex;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .producto{
+        width: 23%;
+        
+    }
+    .precio{
+        width: 23%;
+        font-size: 15px;  
+        display: flex;
+    }
+    .descuento{
+        width: 23%;
+        font-size: 15px;
+        display: flex;   
+    }
+    .descripcion{
+        text-align: center;
+        display: flex;
+    }
+    .imagenesMer{
+        width: 29%;
+        display: flex;
+    }
+    .claseNav button{
+        width: 10%;
+        display: flex;
+    }
+    #itemsearch{
+        width: 29%;
+        display: flex;
+    }
+    .titularInicio{
+        width: 29%;
+        text-align: center;
+        display: flex;
+    }
+    .juan{
+        flex-grow: 3;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+    
+}
