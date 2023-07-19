@@ -14,7 +14,7 @@ app.get('/betaHome', (req,res) => {
     app.get('/crearCuenta', (req,res) => {
         res.sendFile (path.join(__dirname, '/views/crearCuenta.html'))});
 
-app.listen(3001 ,() => console.log('sevidor corriendo beta'));
+/*app.listen(3001 ,() => console.log('sevidor corriendo beta'));*/
 
 const port = process.env.PORT || 3001;
-app.listen(port,()=>console.log('servidor corriendo en el puerto ${port}'));
+app.listen(port,()=>console.log(`servidor corriendo en el puerto ${port}`))
