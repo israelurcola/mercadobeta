@@ -57,7 +57,6 @@ img{
 .juan{
     display: inline-flex;
     flex-grow: 3;
-    display: inline-flex;
     justify-content: space-evenly;
     
 }
@@ -265,12 +264,12 @@ img{
         text-align: center;
     }
     .imagenesMer{
-        width: 49%;
+        width: 40%;
 
     }
     .claseNav button{
         width: 10%;
-        height:20% ;
+        height:10% ;
     }
     .titularInicio{
         width: 40%;
@@ -288,6 +287,13 @@ img{
         flex-grow: 3;
         display: inline-flex;
         justify-content: space-evenly;
+    }
+    .lupa {
+        height: 45%;
+        width: 45%;
+        margin: auto;
+        padding-left: 8%;
+        
     }
 }
 
@@ -318,7 +324,7 @@ img{
         display: flex;
     }
     .imagenesMer{
-        width: 29%;
+        width: 25%;
         display: flex;
     }
     .claseNav button{
@@ -338,6 +344,13 @@ img{
         flex-grow: 3;
         display: inline-flex;
         justify-content: space-evenly;
+    }
+    .lupa {
+        height: 50%;
+        width: 45%;
+        margin: auto;
+        padding-left: 8%;
+        
     }
     
 }
